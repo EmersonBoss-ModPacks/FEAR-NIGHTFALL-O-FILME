@@ -1,0 +1,132 @@
+{
+  "general": {
+    "startupGraceSeconds": 180,
+    "majorEventGapSeconds": 600
+  },
+  "tntRain": {
+    "durationSeconds": 3,
+    "cooldownSeconds": 2100,
+    "autoTriggerMinSeconds": 1200,
+    "autoTriggerRandomSeconds": 1200
+  },
+  "timeSkip": {
+    "initialSpeed": 20.0,
+    "maxSpeed": 5000.0,
+    "durationSeconds": 30,
+    "cooldownSeconds": 600,
+    "autoTriggerMinSeconds": 600,
+    "autoTriggerRandomSeconds": 1500
+  },
+  "paranoya": {
+    "durationSeconds": 60,
+    "cooldownMinSeconds": 2400,
+    "cooldownRandomSeconds": 2400,
+    "stepTriggerCm": 3000,
+    "muteMusic": true
+  },
+  "leafDestroyer": {
+    "activeDurationSeconds": 30,
+    "delayMinSeconds": 1200,
+    "delayRandomSeconds": 1000
+  },
+  "torchBreaking": {
+    "nightChance": 0.08,
+    "placeChance": 0.05
+  },
+  "hauntedBook": {
+    "intervalSeconds": 2100
+  },
+  "haunting": {
+    "loginNullJoinMinSeconds": 10,
+    "loginNullJoinRandomSeconds": 20,
+    "jumpscareCooldownSeconds": 900,
+    "staticScareWalkCm": 20000
+  },
+  "paranoiaIllusion": {
+    "enabled": true,
+    "refreshChance": 0.15,
+    "maxSlotsPerRefresh": 3,
+    "periodicMinSeconds": 90,
+    "periodicMaxSeconds": 180
+  },
+  "cursedSleep": {
+    "cursedNightChance": 0.12
+  },
+  "versionCorruption": {
+    "enabled": true
+  },
+  "phantomAnimals": {
+    "enabled": true,
+    "maxLevel": 30,
+    "intervalMinSeconds": 240,
+    "intervalMaxSeconds": 720,
+    "radius": 12
+  },
+  "noSpawns": {
+    "enabled": true,
+    "skeletons": true,
+    "zombies": true,
+    "drowned": true,
+    "phantoms": true,
+    "villagers": true,
+    "ironGolems": true
+  },
+  "wolfHaunt": {
+    "enabled": true,
+    "chancePerSecond": 0.04,
+    "radius": 24,
+    "moonStartTime": 14000,
+    "moonEndTime": 22000
+  },
+  "secondMoon": {
+    "enabled": true,
+    "chancePerNight": 0.1
+  },
+  "ghostLoot": {
+    "autoScene": true,
+    "wanderDistance": 300,
+    "sceneChance": 0.15,
+    "pillarMinHeight": 8,
+    "pillarMaxHeight": 20,
+    "minItems": 12,
+    "maxItems": 24,
+    "lootRadius": 4,
+    "aheadMinBlocks": 20,
+    "aheadMaxBlocks": 30,
+    "opChance": 0.2
+  },
+  "totemHeist": {
+    "enabled": false,
+    "minMinutes": 5,
+    "maxMinutes": 20
+  },
+  "moonLook": {
+    "enabled": true,
+    "durationSeconds": 20,
+    "radius": 100,
+    "autoTrigger": true,
+    "autoTriggerMinSeconds": 1800,
+    "autoTriggerRandomSeconds": 1800
+  },
+  "echoMining": {
+    "enabled": true,
+    "autoTriggerMinSeconds": 420,
+    "autoTriggerRandomSeconds": 780,
+    "minDistance": 10,
+    "maxDistance": 24,
+    "retreatDistance": 7
+  },
+  "distantBeacon": {
+    "enabled": true,
+    "autoTriggerMinSeconds": 600,
+    "autoTriggerRandomSeconds": 900,
+    "minDistance": 90,
+    "maxDistance": 160,
+    "durationSeconds": 5
+  },
+  "morningChange": {
+    "enabled": true,
+    "chance": 0.25,
+    "radius": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "visual",
+  "distanceLimit": 128,
+  "overrides": {
+    "9bb55a44-f74b-4a67-8290-e8918ba9f7ef": "visual"
+  }
+}
